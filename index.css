@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+  background: url(/DoAn/hinhanh/Trungquoc.jpg);
+  width: 100%;
+  background-size: cover;
+} */
+.mai{
+    color: rgb(26, 24, 24);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    transition: all 0.5s ease-in-out;
+ 
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px ;
+    display: block;
+}
+ul#main-menu{
+    display: flex;
+}
+
+ul#main-menu a{
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: rgb(14, 13, 13);
+    display: block;
+    font-weight: bold;
+}
+#banner{
+    background: url(/DoAn/hinhanh/Trungquoc.jpg);
+    min-height: 830px;
+    width: 100%;
+    background-size: cover;
+}
+header.sticky{
+  
+    background: #fff;
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0.5);
+}
+header.sticky .logo{
+   
+    color: rgb(27, 27, 27);
+}
+header.sticky #main-menu a {
+    
+    color: rgb(19, 18, 18);
+}
+#alfred-show {
+    overflow: hidden;
+    height: 500px;
+    width: 900px;
+    padding: 0%;
+    float: left;
+    margin-left: 150px;
+  }
+  
+  .alfred-wrapper {
+    width: 9000px;
+    animation: alfred 15s ease infinite;
+    margin-left: 150px;
+  }
+  
+  .alfred {
+    float: left;
+    height: 400px;
+    width: 900px;
+    margin-top: 10px;
+    
+  }
+  .alfred img {
+    width: 900px;
+    height: 350px;
+    display: flex;
+  }
+  @keyframes alfred {
+    20% {
+      margin-left: 0px;
+    }
+  
+    30% {
+      margin-left: -900px;
+    }
+  
+    50% {
+      margin-left: -900px;
+    }
+  
+    60% {
+      margin-left: -1800px;
+    }
+  
+    80% {
+      margin-left: -1800px;
+    }
+  
+    100% {
+      margin-left: -1800px;
+    }
+    120% {
+      margin-left: -2700px;
+    }
+    140% {
+      margin-left: -2700px;
+    }
+    160% {
+      margin-left: -3600px;  
+  }
+  160% {
+    margin-left: -3600px;  
+}
+  }

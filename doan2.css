@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search-box{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    display: block;
+}
+.search-box__input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color:#efff;
+    padding: 10px 40px 10px 10px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.search-box__btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+
+}
+.search-box.open{
+    width: 200px;
+}
+ul{
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0px auto;
+    max-width: 960px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(172, 243, 231);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    transition: all 0.5s ease-in-out;
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px ;
+    display: block;
+}
+ul#main-menu{
+    display: flex;
+}
+ul#main-menu a{
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+#banner{
+    background: url(/DoAn/hinhanh/Giza.jpg);
+    min-height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+header.sticky{
+    background: #efff;
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0.5);
+}
+header.sticky .logo{
+    color: black;
+}
+header.sticky #main-menu a {
+    color: black;
+}
+/* #div-alfred{
+    margin-top: 50px;
+} */
+#alfred-show {
+    overflow: hidden;
+    height: 500px;
+    width: 900px;
+    padding: 0%;
+    float: left;
+    margin-left: 250px;
+  }
+  
+  .alfred-wrapper {
+    width: 9000px;
+    animation: alfred 15s ease infinite;
+    margin-left: 150px;
+  }
+  
+  .alfred {
+    float: left;
+    height: 400px;
+    width: 900px;
+    margin-top: 10px;
+    
+  }
+  .alfred img {
+    width: 900px;
+    height: 350px;
+    display: flex;
+  }
+  @keyframes alfred {
+    20% {
+      margin-left: 0px;
+    }
+  
+    30% {
+      margin-left: -900px;
+    }
+  
+    50% {
+      margin-left: -900px;
+    }
+  
+    60% {
+      margin-left: -1800px;
+    }
+  
+    80% {
+      margin-left: -1800px;
+    }
+  
+    100% {
+      margin-left: -1800px;
+    }
+    120% {
+      margin-left: -2700px;
+    }
+    140% {
+      margin-left: -2700px;
+    }
+    160% {
+      margin-left: -3600px;  
+  }
+  160% {
+    margin-left: -3600px;  
+}
+}
+@media screen and (min-width:576px) and (max-width:768px){
+  span{
+      margin: 60px;
+  }
+  nav a{
+      margin: 0px 30px;
+  }
+}    
+@media screen and (min-width: 768px) and (max-width: 992px){
+  span{
+      margin: 80px;
+  }
+  nav a{
+      margin: 0px 40px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width:1200px){
+  span{
+      margin: 120px;
+  }
+  nav a{
+      margin: 0px 60px;
+  }
+}
+
+  /* .carousel-inner{
+    margin-left: 250px;
+  }
+   */
